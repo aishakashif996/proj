@@ -1,0 +1,23 @@
+#arithmetic all operators
+x=int(input("enter first operand: "))
+y=int(input("enter second operand: "))
+z=x+y
+t=x-y
+n=x*y
+m=x/y
+u=x%y
+v=x**y
+b=x//y
+print(f"sum of {x} and {y} is={z}")
+print()
+print(f"difference of {x} and {y} is={t}")
+print()
+print(f"multiplication of {x} and {y} is={n}")
+print()
+print(f"division of {x} and {y} is={m}")
+print()
+print(f"modulus of {x} and {y} is={u}")
+print()
+print(f"exponential of {x} raise to the power {y} is={v}")
+print()
+print(f"floor division of {x} and {y} is={b}")
